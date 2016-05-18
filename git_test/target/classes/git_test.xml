@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
     <flow name="git_testFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/test2" doc:name="HTTP"/>
         <set-payload doc:name="Set Payload" value="#[message]"/>
-        <logger message="testing component" level="INFO" doc:name="Logger"/>
+        <logger message="testing componen" level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
